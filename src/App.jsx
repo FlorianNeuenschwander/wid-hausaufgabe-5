@@ -1,7 +1,13 @@
+import React from "react";
+import Button from "@mui/material/Button";
+
 function App() {
   return (
     <div>
-      <h1>hallo welt</h1>
+      <h1>Willkommen zu MUI + React</h1>
+      <Button variant="contained" color="primary">
+        Klicke mich
+      </Button>
     </div>
   );
 }
